@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "wechat-article-export": {
+      "command": "C:/REPLACE_WITH_EXTRACTED_FOLDER/.venv/Scripts/python.exe",
+      "args": ["C:/REPLACE_WITH_EXTRACTED_FOLDER/server.py"],
+      "env": {
+        "PYTHONUTF8": "1",
+        "WECHAT_MCP_OUTPUT_DIR": "C:/REPLACE_WITH_OUTPUT_FOLDER"
+      }
+    }
+  }
+}

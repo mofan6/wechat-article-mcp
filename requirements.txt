@@ -1,0 +1,6 @@
+mcp==1.30.0
+httpx[socks]==0.28.1
+beautifulsoup4==4.15.0
+markdownify==1.2.3
+playwright==1.63.0
+pypdf==6.19.0

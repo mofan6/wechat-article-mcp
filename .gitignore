@@ -1,0 +1,13 @@
+.venv/
+.state/
+exports/
+mcp-config.json
+codex-config.toml
+__pycache__/
+*.pyc
+dist/
+*.log
+session*.json
+auth-source*.json
+*.backup-*
+*.tmp
