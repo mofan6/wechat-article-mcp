@@ -1,6 +1,6 @@
 # 验证记录
 
-日期：2026-10-09。实际运行平台：Windows，Python 3.12，已安装 Microsoft Edge。
+日期：2026-10-09。本地：Windows，Python 3.12，已安装 Microsoft Edge。GitHub Actions：Windows 与 Ubuntu，Python 3.12。
 
 ## 已通过
 
@@ -16,7 +16,9 @@
 
 追加 Codex 桌面版适配：提供 CODEX_DESKTOP.md 和 TOML 配置生成/注册脚本。另有 3 项配置测试，验证备份、保留其他服务器/模型与注释、重复注册、同名冲突不覆盖、含中文和空格的路径。配置识别使用本机 Codex CLI 的临时命令行覆盖，不写发送方实际 Codex 设置。
 
-本次没有在 macOS/Linux 上运行测试；代码和安装入口提供相应路径及 Chromium 支持。Linux 浏览器系统库和中文字体需在目标机器验证。
+GitHub Actions 的 Windows 与 Ubuntu 两个平台均已通过依赖安装、13 项单元测试、真实 stdio/PDF 导出自检和发行包构建：[测试记录](https://github.com/mofan6/wechat-article-mcp/actions/runs/37905041185)。Ubuntu 安装了 Playwright Chromium 系统依赖与 Noto CJK 字体。
+
+本次没有在 macOS 上运行测试；代码和安装入口提供相应路径及 Chromium 支持。目标机器的网络、权限和中文字体仍需按 doctor 和安装自检确认。
 
 实际微信文章访问受登录态、网络、微信验证及频率限制影响。回归使用本机已取得的原文缓存，没有将登录会话复制到包中，也不表示每个公众号链接都能无登录读取。
 
